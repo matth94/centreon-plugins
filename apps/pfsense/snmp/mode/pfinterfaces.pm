@@ -30,7 +30,7 @@ sub set_counters {
     my ($self, %options) = @_;
     
     $self->{maps_counters_type} = [
-        { name => 'pfint', type => 1, cb_prefix_output => 'prefix_pfint_output', message_multiple => 'All pfInterfaes are ok' }
+        { name => 'pfint', type => 1, cb_prefix_output => 'prefix_pfint_output', message_multiple => 'All pfInterfaces are ok' }
     ];
     
     $self->{maps_counters}->{pfint} = [
